@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>kz.shakenov</groupId>
+    <artifactId>pmd-core</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>pmd-core</name>
+    <description>Lightweight PMD wrapper with configurable ruleset and markdown output</description>
+    <url>https://github.com/devbatyr/pmd-core</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>devbatyr</id>
+            <name>Batyrkhan Shakenov</name>
+            <email>batr1996@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/devbatyr/pmd-core.git</connection>
+        <developerConnection>scm:git:ssh://github.com/devbatyr/pmd-core.git</developerConnection>
+        <url>https://github.com/devbatyr/pmd-core</url>
+    </scm>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
+
+</project>
