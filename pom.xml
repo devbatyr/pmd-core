@@ -8,6 +8,12 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <gpg.skip>true</gpg.skip>
+    </properties>
+
     <name>pmd-core</name>
     <description>Lightweight PMD wrapper with configurable ruleset and markdown output</description>
     <url>https://github.com/devbatyr/pmd-core</url>
@@ -34,9 +40,21 @@
         <url>https://github.com/devbatyr/pmd-core</url>
     </scm>
 
-    <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-    </properties>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/devbatyr/pmd-core</url>
+        </repository>
+    </distributionManagement>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
