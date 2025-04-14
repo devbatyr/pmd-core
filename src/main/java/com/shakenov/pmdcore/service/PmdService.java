@@ -1,9 +1,9 @@
-package kz.shakenov.pmdcore.service;
+package com.shakenov.pmdcore.service;
 
-import kz.shakenov.pmdcore.config.PmdConfig;
-import kz.shakenov.pmdcore.exception.PmdExecutionException;
-import kz.shakenov.pmdcore.model.PmdResponse;
-import kz.shakenov.pmdcore.model.PmdViolation;
+import com.shakenov.pmdcore.config.PmdConfig;
+import com.shakenov.pmdcore.exception.PmdExecutionException;
+import com.shakenov.pmdcore.model.PmdViolation;
+import com.shakenov.pmdcore.model.PmdResponse;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

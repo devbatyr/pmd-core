@@ -1,4 +1,4 @@
-package kz.shakenov.pmdcore.model;
+package com.shakenov.pmdcore.model;
 
 import java.util.ArrayList;
 import java.util.Collections;

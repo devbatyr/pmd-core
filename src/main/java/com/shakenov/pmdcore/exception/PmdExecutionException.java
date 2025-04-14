@@ -1,4 +1,4 @@
-package kz.shakenov.pmdcore.exception;
+package com.shakenov.pmdcore.exception;
 
 /**
  * Thrown when PMD analysis fails due to execution or I/O errors.

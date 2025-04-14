@@ -1,4 +1,4 @@
-package kz.shakenov.pmdcore.config;
+package com.shakenov.pmdcore.config;
 
 import java.util.ArrayList;
 import java.util.List;
