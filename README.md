@@ -17,7 +17,7 @@ A lightweight Java library for integrating PMD static code analysis via its CLI,
 
 ```xml
 <dependency>
-  <groupId>kz.shakenov</groupId>
+  <groupId>com.shakenov</groupId>
   <artifactId>pmd-core</artifactId>
   <version>1.0.0</version>
 </dependency>
@@ -27,7 +27,7 @@ A lightweight Java library for integrating PMD static code analysis via its CLI,
 
 ```groovy
 dependencies {
-  implementation 'kz.shakenov:pmd-core:1.0.0'
+  implementation 'com.shakenov:pmd-core:1.0.0'
 }
 ```
 
